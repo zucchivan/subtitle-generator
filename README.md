@@ -58,4 +58,4 @@ To generate an SRT file for a video, run the following command:
 ./subtitle-generator -video=/path/to/your-video.mp4
 ```
 
-This will generate an SRT file under ~/tmp/ with the same name as the input video file.
+This will generate an SRT file under ~/out/ with the same name as the input video file.

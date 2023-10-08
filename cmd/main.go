@@ -96,7 +96,7 @@ func main() {
 
 	audioFile := filepath.Join(usr.HomeDir, "tmp", "audio.wav")
 	srtFileName := filepath.Base(videoFile)
-	srtFile := filepath.Join(usr.HomeDir, "tmp", srtFileName+".srt")
+	srtFile := filepath.Join(usr.HomeDir, "out", srtFileName+".srt")
 
 	err = extractAudio(videoFile, audioFile)
 	if err != nil {
